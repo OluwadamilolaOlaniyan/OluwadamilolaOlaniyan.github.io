@@ -8,30 +8,35 @@
   <style>
     body {
       font-family: 'Montserrat', sans-serif;
-      background: linear-gradient(120deg, #00c6fb 0%, #005bea 100%);
+      background: linear-gradient(120deg, #0D0D0D 0%, #1a1a1a 100%);
       color: #fff;
       margin: 0; padding: 0;
     }
-    .container { max-width: 800px; margin: 40px auto; background: rgba(255,255,255,0.08); border-radius: 16px; padding: 32px; }
-    h1, h2 { color: #fff; text-align: center; }
+    .container { max-width: 800px; margin: 40px auto; background: rgba(0,0,0,0.85); border-radius: 16px; padding: 32px; }
+    h1, h2 { color: #FFD700; text-align: center; }
     nav { text-align: center; margin-bottom: 24px;}
-    nav a { color: #fff; margin: 0 12px; text-decoration: none; font-weight: bold; }
+    nav a { color: #FFD700; margin: 0 12px; text-decoration: none; font-weight: bold; }
     .section { margin-bottom: 40px; }
+    .profile-pic { display:block; margin:0 auto 20px auto; border-radius:50%; width:120px; }
     .portfolio-items { display: flex; flex-wrap: wrap; gap: 24px; justify-content: center; }
-    .item { background: rgba(0,0,0,0.2); padding: 16px; border-radius: 8px; width: 220px; }
+    .item { background: rgba(255,215,0,0.08); padding: 16px; border-radius: 8px; width: 220px; }
     .item img { width: 100%; border-radius: 4px; }
     .contact-form input, .contact-form textarea { width: 100%; margin-bottom: 12px; padding: 8px; border-radius: 4px; border: none; }
-    .contact-form button { background: #00c6fb; color: #fff; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; }
+    .contact-form button { background: #FFD700; color: #000; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; }
     .resume-list { list-style: none; padding: 0;}
     .resume-list li {margin-bottom: 12px;}
-    footer { text-align: center; font-size: 0.9em; margin-top: 24px; color: #e0e0e0; }
-    a { color: #fff; }
+    footer { text-align: center; font-size: 0.9em; margin-top: 24px; color: #FFD700; }
+    a { color: #FFD700; }
   </style>
 </head>
 <body>
   <div class="container">
+    <img src="my picture.png" alt="Oluwadamilola Olaniyan" class="profile-pic">
     <h1>Oluwadamilola Olaniyan</h1>
     <p style="text-align:center;">Frontend Developer / Software Engineer</p>
+    <p style="text-align:center;">
+      <a href="https://www.youtube.com/@Pretty_Dorcas-B" target="_blank">Visit my YouTube Channel</a>
+    </p>
     <nav>
       <a href="#portfolio">Portfolio</a>
       <a href="#resume">Resume</a>
@@ -49,7 +54,6 @@
             <a href="https://sites.google.com/view/oluwadamilola-olaniyan/home" target="_blank">Visit Portfolio</a>
           </p>
         </div>
-        <!-- Add more portfolio items as needed -->
       </div>
     </div>
     <div class="section" id="resume">
@@ -67,7 +71,6 @@
       <ul>
         <li><a href="#">How I Became a Frontend Developer</a></li>
         <li><a href="#">Tips for Building Minimalist Websites</a></li>
-        <!-- Add more blog posts as needed -->
       </ul>
     </div>
     <div class="section" id="contact">
@@ -78,7 +81,7 @@
         <textarea placeholder="Your Message" rows="4" required></textarea>
         <button type="submit">Send</button>
       </form>
-      <p style="text-align:center;">Or email: <a href="mailto:Oluwadamilola.olaniyan@gmail.com" style="color:#fff;">Oluwadamilola.olaniyan@gmail.com</a></p>
+      <p style="text-align:center;">Or email: <a href="mailto:Oluwadamilola.olaniyan@gmail.com">Oluwadamilola.olaniyan@gmail.com</a></p>
     </div>
     <footer>
       &copy; 2025 Oluwadamilola Olaniyan. All rights reserved.
